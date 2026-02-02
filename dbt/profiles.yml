@@ -1,0 +1,12 @@
+my_project:
+  outputs:
+    dev:
+      dbname: nyc311
+      host: nyc311_db
+      pass: nyc311_password
+      port: 5432
+      schema: raw_data
+      threads: 4
+      type: postgres
+      user: nyc311_user
+  target: dev
