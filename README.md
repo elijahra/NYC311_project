@@ -1,6 +1,6 @@
 # NYC311Pipline
 This pipeline and data model is 
-  - Python: used to ingest data
+  - Python: Used to ingest data from NYC Open data via the socrata API.
   - Dbt: used to create the data model
   - Postgres: used to store and report to potential dashboards.
   - Docker: used to containerize
